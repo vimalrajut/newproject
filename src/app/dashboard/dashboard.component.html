@@ -1,0 +1,124 @@
+<section class="mt20">
+  <div class="containers">
+    <div class="rows">
+      <div class="cols-1 mob-show">
+        <h3>RESTAURANT DASHBOARD</h3>
+      </div>
+      <div class="cols-4 col-m-50">
+        <div class="box1">
+          <a routerLink="/createNOC">
+            <div class="icon"><img src="./assets/images/create-order.svg"></div>
+            <p>Create New Order</p>
+          </a>
+        </div>
+      </div>
+      <div class="cols-4 col-m-50">
+        <div class="box1">
+          <a href="javascript:void(0);">
+            <div class="icon"><img src="./assets/images/invoice.svg"></div>
+            <p>Process Invoice</p>
+          </a>
+        </div>
+      </div>
+      <div class="cols-4 col-m-50">
+        <div class="box1">
+          <a href="javascript:void(0);">
+            <div class="icon"><img src="./assets/images/approve.svg"></div>
+            <p>Approve Pricing</p>
+          </a>
+        </div>
+      </div>
+      <div class="cols-4 col-m-50">
+        <div class="box1">
+          <a href="javascript:void(0);">
+            <div class="icon"><img src="./assets/images/order-history.svg"></div>
+            <p>Order History</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="clearfixs"></div>
+</section>
+
+<section>
+  <div class="containers">
+    <div class="report-cover">
+      <div class="rows">
+        <div class="cols-2 col-m">
+          <div class="report-box">
+            <p class="gray-text mb30">Dine Market Snapshot</p>
+            <div class="report-info">
+              <span><img src="./assets/images/dollar.svg"></span>
+              <h4>{{soldAmount|number}}</h4>
+              <p>Sold</p>
+            </div>
+          </div>
+          <div class="rows mt50 report-row">
+            <div class="cols-2">
+              <div class="report-box">
+                <div class="report-info">
+                  <span><img src="./assets/images/van.svg"></span>
+                  <h4>{{vendors|number}}</h4>
+                  <p>Vendors</p>
+                </div>
+              </div>
+            </div>
+            <div class="cols-2">
+              <div class="report-box">
+                <div class="report-info">
+                  <span><img src="./assets/images/groceries.svg"></span>
+                  <h4>{{items|number}}</h4>
+                  <p>Items</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cols-2 col-m">
+          <div class="bought-items">
+            <h4 class="mb20">Top Items Bought</h4>
+            <div class="items-list mb10">
+              <ul>
+                <li><a href="javascript:void(0);">All</a></li>
+                <li><a href="javascript:void(0);">Produce</a></li>
+                <li><a href="javascript:void(0);">Meal</a></li>
+                <li><a href="javascript:void(0);">Dairy</a></li>
+              </ul>
+            </div>
+            <table class="table tables-striped">
+              <tr *ngFor="let items of itemBought">
+                <td>
+                  {{items.itemName}}
+                </td>
+                <td>
+                  {{items.itemNoOfPurchese}}
+                </td>
+              </tr>
+              <!-- <tr>
+                <td>Beef Ground, Thunder Ridge, Per LB</td>
+                <td align="right">61,445</td>
+              </tr>
+              <tr>
+                <td>Tuna Yellow fin/B-Eye Loin #2, Per LB</td>
+                <td align="right">39,491</td>
+              </tr>
+              <tr>
+                <td>Parsely Italian Flat Fresh, 4oz Bunch</td>
+                <td align="right">39,310</td>
+              </tr>
+              <tr>
+                <td>Mussel PEI 10 LB, Per LB</td>
+                <td align="right">34,902</td>
+              </tr>
+              <tr>
+                <td>Lettuce Mesclun Mixed, 3LB Case</td>
+                <td align="right">32,424</td>
+              </tr> -->
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

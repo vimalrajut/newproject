@@ -1,0 +1,91 @@
+@media (min-width: 1400px) and (max-width: 1920px) {
+	
+	
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+
+	.containers{width: 100%;}
+	.item-image img{width: 120px;}
+	.item-add{margin-top: 10px;}
+
+}
+
+
+@media screen and (max-device-width: 1024px) and (orientation: landscape) {
+
+	.box1{padding: 20px 10px;}
+	.box1 p{font-size: 16px;}
+	.containers{width: 100%;}
+	.item-image img{width: 120px;}
+	.item-add{margin-top: 10px;}
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {	
+	
+	.logo-small img{max-width: 60px;}
+	header h3{font-size: 18px; margin-top: 15px;}
+	.cart-option ul li img{max-width: 20px;}
+	.report-info h4, .report-row .report-info h4{font-size: 20px; white-space: nowrap;}
+	.box1 p{font-size: 14px; line-height: 22px;}
+	.report-info{padding-left: 60px;}
+	.report-info span{top: 2px;}
+	.report-info span img{max-width: 50px;}
+	.containers{width: 100%;}
+	.login-cover.cols-40{width: 50%;}
+	.logo img{max-width: 150px;}
+	.logo h1{font-size: 26px;}
+	.order-row.col-width{width: 50%;}
+	.item-image img{max-width: 80px;}
+	.item-content{max-width: 150px;}
+	.order-row .cols-2 + .cols-2{width: 50%;}
+	.col-width .cols-2 + .cols-2{width: 100% !important}
+	.col-width .item-content{max-width: 100% !important;}
+	.item-name{margin-bottom: 10px;}
+	.col-width .item-name{margin-bottom: 0;}
+	.order-search{padding: 0;}
+	.menu-list{margin-top: 15px;}
+}
+
+@media screen and (max-width : 1024px) {
+
+	
+
+}
+
+@media (max-width: 767px) {
+
+	.logo, .login-cover{margin-top: 25px !important;}
+	.login-cover{margin-bottom: 30px;}
+	.logo img{max-width: 100px;}
+	.logo h1{font-size: 24px;}
+	.forgot-pass button{padding: 10px 35px;}
+	.logo-small img{max-width: 50px;}
+	header h3{font-size: 16px; margin-top: 12px;}
+	.box1{margin-bottom: 20px;}
+	.box1 p{font-size: 16px; line-height: 24px;}
+	.box1 a{padding: 15px;}
+	.col-m-50{width: 50% !important;}
+	.report-info h4, .report-row .report-info h4{font-size: 20px; white-space: nowrap;}
+	.report-box{margin-bottom: 30px;}
+	.report-info{padding-left: 60px;}
+	.report-info span img{max-width: 45px !important;}
+	.cart-option ul li img{max-width: 20px;}
+	header{padding: 15px 0 0;}
+	.containers{width: 100%;}
+	.col-m {width: 100%;}
+	.mob-show{display: block !important;}
+	.mob-hide{display: none;}
+	.mob-show h3{margin: 0 0 20px;}
+	.col-m-80{width: 80%;}
+	.order-opt{width: 100%; margin: 40px auto;}
+	.grid-list{display: none;}
+	.order-row.col-width{width: 100%;}
+	.col-width .item-name{margin-bottom: 0;}
+	.order-list{padding-bottom: 25px; float: left; width: 100%;}
+	.order-search{padding: 0;}
+	.menu-list{margin-top: 15px;}
+	.item-image{height: auto !important;}
+
+} 

@@ -1,0 +1,9 @@
+.is-invalid{
+    /*border-color: #dc3545;*/
+    background-image: linear-gradient(#dc3545, #ccc)
+}
+
+.is-invalid-lbl{
+    color: #dc3545;
+}
+
